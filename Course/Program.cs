@@ -1113,7 +1113,7 @@ namespace Course
 
             // Operações com Timespan
 
-
+            /*  
 
             TimeSpan t1 = TimeSpan.MaxValue;
             TimeSpan t2 = TimeSpan.MinValue;
@@ -1202,7 +1202,7 @@ namespace Course
             Console.WriteLine(d32.ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ"));
 
 
-
+            */
 
 
 
@@ -1233,13 +1233,13 @@ namespace Course
 
 
 
-            // ############################################# INICIO TTIPO ENUM SESSÃO 9   ###############################################
+           
 
 
 
             // ############################################# INICIO TTIPO ENUM SESSÃO 9   ###############################################
 
-            /*
+           
             Order order = new Order
             {
                 Id = 1080,
@@ -1256,13 +1256,7 @@ namespace Course
 
             OrderStatus os = Enum.Parse<OrderStatus>("Delivered");
 
-            Console.WriteLine(os);
-
-
-                
-            
-
-           */
+            Console.WriteLine(os);                
 
 
 
