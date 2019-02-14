@@ -16,7 +16,7 @@ namespace Course.Entities
         }
 
         // sobrecarga do construtor com o construtor nome
-        public Department(String name)
+        public Department(string name)
         {
             Name = name;
         }

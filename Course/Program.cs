@@ -1233,12 +1233,13 @@ namespace Course
 
 
 
-           
+
 
 
 
             // ############################################# INICIO TTIPO ENUM SESSÃO 9   ###############################################
 
+            /* testes com enum 
            
             Order order = new Order
             {
@@ -1256,16 +1257,129 @@ namespace Course
 
             OrderStatus os = Enum.Parse<OrderStatus>("Delivered");
 
-            Console.WriteLine(os);                
+            Console.WriteLine(os);
+            /*
+
+            // vamos falar um pouco de design 
+
+            /* CATEGORIA DE CLASSES
+             * Em um sistema orientado a objetos de modo geral " tudo" é objeto.
+             * 
+             * Por questões de design tais como organização, flexibilidade, reuso , delegação e etc. 
+             * Há várias categorias de classes
+             * 
+             *
+             * Views, Controllers Entities, Service, Repositories
+             */
+
+            // COMPOSIÇÃO
+
+            /* É um tipo de associação que permite que um objeto contenha outro
+             * 
+             * Relação "tem-um" ou "tem-vários"
+             * 
+             * Vantagens
+             * 
+             * Organizçaão: divisão de responsabilidades
+             * Coesão;
+             * Flexibilidade
+             * Reuso
+             */
+
+            // Nota: embora o símbolo UML para composição (todo-parte) seja o diamane preto neste contexto
+            // estamos chamando de composição qualquer associação tipo "tipo-um " e "tipo-vários"
+
+
+
+            // ------------------->  INICIO EXERCIO RESOLVIDO SESSÃO 9 <-------------------------------------------------------------
+
+
+            // recenbendo e armazenando os dados digitados pelo usuários
+            Console.WriteLine("Enter departamen's name:");
+            string deptName = Console.ReadLine();
+
+            Console.WriteLine("Enter worker data");
+
+            Console.WriteLine("Name: ");
+            string name = Console.ReadLine();
+
+            Console.WriteLine("Level( Junior/MidLevel/Senior: ");
+            WorkerLevel level = Enum.Parse<WorkerLevel>(Console.ReadLine());
+
+            Console.WriteLine("Base Salary ");
+            double baseSalary = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            // declarando e instanciando e repassando os dados para os objetos
+
+            Department dept = new Department(deptName);
+
+            Worker worker = new Worker(name, level, baseSalary, dept);
+
+
+            // recebendo os dados enviados pelo usuário referente aos contratos
+
+
+            Console.WriteLine("How many contracts to this worker");
+
+            int n = int.Parse(Console.ReadLine());
+
+            for(int i = 0; i<n; i++)
+            {
+                Console.WriteLine($"Enter #{i} com os");
+
+                Console.WriteLine("Date (DD/MM/YYYY): ");
+                DateTime date = DateTime.Parse(Console.ReadLine());
+
+                Console.WriteLine("Value per hour");
+                double valuePerHour = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+                Console.WriteLine("Duration (hours) ");
+                int hours = int.Parse(Console.ReadLine());
+
+                // instanciado o objeto HourContract 
+
+                HourContract contract = new HourContract(date, valuePerHour, hours);
+
+                worker.AddContract(contract);
+
+            }
+
+            Console.WriteLine();
+            Console.Write("Enter month and year to calculate income (MM/YYYY): ");
+            string monthAndYear = Console.ReadLine();
+
+            int month = int.Parse(monthAndYear.Substring(0, 2));
+
+            int year = int.Parse(monthAndYear.Substring(3));
+
+            // imprimindo os dados no console
+
+            Console.WriteLine("Departament: " + worker.Departament.Name);
+            Console.WriteLine("Income for " + monthAndYear + ": " + worker.Income(month, year));
 
 
 
 
 
-            // ############################################# FIM TIPO ENUM  ###############################################
 
 
 
+
+
+
+
+
+
+
+
+
+
+            // ------------------->  FIM  EXERCIO RESOLVIDO SESSÃO 9 <-------------------------------------------------------------
+
+
+
+
+            // ############################################# FIM TTIPO ENUM SESSÃO 9   ###############################################
 
 
 
