@@ -1,0 +1,7 @@
+C:\Users\Dev01\source\repos\Projetos_Testes\Course\Sessao11TratamentoExececoes\bin\Debug\Sessao11TratamentoExececoes.exe.config
+C:\Users\Dev01\source\repos\Projetos_Testes\Course\Sessao11TratamentoExececoes\bin\Debug\Sessao11TratamentoExececoes.exe
+C:\Users\Dev01\source\repos\Projetos_Testes\Course\Sessao11TratamentoExececoes\bin\Debug\Sessao11TratamentoExececoes.pdb
+C:\Users\Dev01\source\repos\Projetos_Testes\Course\Sessao11TratamentoExececoes\obj\Debug\Sessao11TratamentoExececoes.csprojAssemblyReference.cache
+C:\Users\Dev01\source\repos\Projetos_Testes\Course\Sessao11TratamentoExececoes\obj\Debug\Sessao11TratamentoExececoes.csproj.CoreCompileInputs.cache
+C:\Users\Dev01\source\repos\Projetos_Testes\Course\Sessao11TratamentoExececoes\obj\Debug\Sessao11TratamentoExececoes.exe
+C:\Users\Dev01\source\repos\Projetos_Testes\Course\Sessao11TratamentoExececoes\obj\Debug\Sessao11TratamentoExececoes.pdb

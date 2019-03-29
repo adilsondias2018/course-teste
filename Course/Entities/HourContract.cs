@@ -18,7 +18,7 @@ namespace Course.Entities
 
         }
 
-        // Sobrecarga do construtor
+        // Sobrecarga do construtor com  ar
         public HourContract(DateTime date, double valuePerHour, int hours)
         {
             Date = date;

@@ -9,7 +9,7 @@ namespace Course.Entities
     {
         public int Id { get; set; }
         public DateTime Moment { get; set; }
-        public OrderStatus Status { get; set; }
+        public OrderStatus Status { get; set; } // Classe é um enum e vem de outro namespace
 
 
 

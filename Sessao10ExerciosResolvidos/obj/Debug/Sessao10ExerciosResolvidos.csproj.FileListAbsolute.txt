@@ -1,0 +1,7 @@
+C:\Users\Dev01\source\repos\Projetos_Testes\Course\Sessao10ExerciosResolvidos\obj\Debug\Sessao10ExerciosResolvidos.csprojAssemblyReference.cache
+C:\Users\Dev01\source\repos\Projetos_Testes\Course\Sessao10ExerciosResolvidos\obj\Debug\Sessao10ExerciosResolvidos.csproj.CoreCompileInputs.cache
+C:\Users\Dev01\source\repos\Projetos_Testes\Course\Sessao10ExerciosResolvidos\bin\Debug\Sessao10ExerciosResolvidos.exe.config
+C:\Users\Dev01\source\repos\Projetos_Testes\Course\Sessao10ExerciosResolvidos\bin\Debug\Sessao10ExerciosResolvidos.exe
+C:\Users\Dev01\source\repos\Projetos_Testes\Course\Sessao10ExerciosResolvidos\bin\Debug\Sessao10ExerciosResolvidos.pdb
+C:\Users\Dev01\source\repos\Projetos_Testes\Course\Sessao10ExerciosResolvidos\obj\Debug\Sessao10ExerciosResolvidos.exe
+C:\Users\Dev01\source\repos\Projetos_Testes\Course\Sessao10ExerciosResolvidos\obj\Debug\Sessao10ExerciosResolvidos.pdb

@@ -1,0 +1,7 @@
+C:\Users\Dev01\source\repos\Projetos_Testes\Course\Sessao10\bin\Debug\Sessao10.exe.config
+C:\Users\Dev01\source\repos\Projetos_Testes\Course\Sessao10\bin\Debug\Sessao10.exe
+C:\Users\Dev01\source\repos\Projetos_Testes\Course\Sessao10\bin\Debug\Sessao10.pdb
+C:\Users\Dev01\source\repos\Projetos_Testes\Course\Sessao10\obj\Debug\Sessao10.csprojAssemblyReference.cache
+C:\Users\Dev01\source\repos\Projetos_Testes\Course\Sessao10\obj\Debug\Sessao10.csproj.CoreCompileInputs.cache
+C:\Users\Dev01\source\repos\Projetos_Testes\Course\Sessao10\obj\Debug\Sessao10.exe
+C:\Users\Dev01\source\repos\Projetos_Testes\Course\Sessao10\obj\Debug\Sessao10.pdb

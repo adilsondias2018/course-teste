@@ -61,7 +61,6 @@ namespace Course
 
             Console.WriteLine("Área de X = " +areaX.ToString("F4", CultureInfo.InstalledUICulture));
             Console.WriteLine("Área de Y = " + areaY.ToString("F4", CultureInfo.InstalledUICulture));
-
             if (areaX > areaY)
             {
                 Console.WriteLine("O maior é" + areaX);

@@ -1,0 +1,7 @@
+C:\Users\Dev01\source\repos\Projetos_Testes\Course\Post\obj\Debug\Post.csprojAssemblyReference.cache
+C:\Users\Dev01\source\repos\Projetos_Testes\Course\Post\obj\Debug\Post.csproj.CoreCompileInputs.cache
+C:\Users\Dev01\source\repos\Projetos_Testes\Course\Post\bin\Debug\Post.exe.config
+C:\Users\Dev01\source\repos\Projetos_Testes\Course\Post\bin\Debug\Post.exe
+C:\Users\Dev01\source\repos\Projetos_Testes\Course\Post\bin\Debug\Post.pdb
+C:\Users\Dev01\source\repos\Projetos_Testes\Course\Post\obj\Debug\Post.exe
+C:\Users\Dev01\source\repos\Projetos_Testes\Course\Post\obj\Debug\Post.pdb
